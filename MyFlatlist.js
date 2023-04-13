@@ -413,7 +413,7 @@ const Category2 = ({ item }) => {
                   style={{
                     width: 130,
                     resizeMode: "cover",
-                    height: 90,
+                    height: 91,
                     alignItems: "center",
                     justifyContent: "center",
                   }}

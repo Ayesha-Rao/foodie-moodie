@@ -13,6 +13,19 @@ import { firebaseConfig } from './FirebaseConfig';
 import {initializeApp} from "firebase/app"; 
 import {getDatabase, ref, onValue} from "firebase/database";
 import { useEffect } from 'react';
+import {
+  getFirestore,
+  collection,
+  getDocs,
+  addDoc,
+  onSnapshot,
+  doc,
+  deleteDoc,
+  updateDoc,
+  query,
+  where,
+} from "firebase/firestore";
+
 
 const Stack = createNativeStackNavigator();
 
@@ -53,7 +66,7 @@ export default function App() {
 
 
 
-  // <MyFlatlist/>
+  // <MyFlatlist/>s
  //<Mylogin/>
  // <myHome/>
  //<MyHome/>
